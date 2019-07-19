@@ -1,3 +1,4 @@
+#coding:utf-8
 from flask import session, g
 
 from apps.cms import bp

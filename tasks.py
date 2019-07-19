@@ -1,3 +1,4 @@
+#coding:utf-8
 from celery import Celery
 from flask_mail import Message
 from exts import mail

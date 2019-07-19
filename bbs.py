@@ -1,3 +1,4 @@
+#coding:utf-8
 import redis
 from flask import Flask, Session
 from apps.cms import bp as cms_bp

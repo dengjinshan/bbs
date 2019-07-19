@@ -1,3 +1,5 @@
+#coding:utf-8
+
 from flask import Blueprint, views, render_template, make_response, request, session, redirect, url_for, g, abort
 from sqlalchemy import func
 
