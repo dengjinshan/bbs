@@ -4,6 +4,7 @@ import redis
 
 SECRET_KEY = os.urandom(24)  # 指定密钥
 DEBUG = True
+ALLOWED_HOSTS = ['106.12.52.122']
 
 HOSTNAME = '127.0.0.1'
 PORT = '3306'
